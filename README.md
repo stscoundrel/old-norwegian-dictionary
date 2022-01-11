@@ -1,13 +1,10 @@
-# TypeScript Template
+# Old Norwegian Dictionary
 
-Template repo for generic TypeScript / Node.js library with tests &amp; lint
+Old Norwegian/Norse Dictionary for Node.js. The dictionary consists of 40 000+ Old Norse words with Norwegian translations.
 
-### Install
+Based on "Dictionary of the Old Norwegian Language".
 
-`yarn add name-of-the-package`
 
-##### Usage
+### About "Dictionary of the Old Norwegian Language"
 
-```javascript
-// Your usage example here
-```
+_"Ordbog over det gamle norske Sprog"_ dictionary was published in late 1800s by Johan Fritzner. Its is the largest Old Norse to Norwegian dictionary, containing over 40 000 word definitions.
