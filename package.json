@@ -1,6 +1,6 @@
 {
   "name": "old-norwegian-dictionary",
-  "version": "1.0.0",
+  "version": "0.9.0",
   "description": "Old Norwegian/Norse Dictionary for Node.js. From 'Dictionary of the Old Norwegian Language'",
   "repository": "https://github.com/stscoundrel/old-norwegian-dictionary.git",
   "author": "stscoundrel <silvennoinen.sampo@gmail.com>",
