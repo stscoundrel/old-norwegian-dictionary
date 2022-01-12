@@ -4,6 +4,44 @@ Old Norwegian/Norse Dictionary for Node.js. The dictionary consists of 40 000+ O
 
 Based on "Dictionary of the Old Norwegian Language".
 
+### Install
+
+`yarn add old-norwegian-dictionary`
+
+### Usage
+
+The project provides a getter for the whole dataset. You can use it in your script to populate your own database or otherwise use the data.
+
+Should you want to use the data without this Node.js library, you might want to check [Old Norwegian Dictionary Builder](https://github.com/stscoundrel/old-norwegian-dictionary-builder)
+
+
+```javascript
+import { getDictionary } from 'old-norwegian-dictionary'
+
+/**
+ * Whole dictionary as array
+ * contains over 40 000 entries.
+ */
+const dictionary = getDictionary()
+
+
+// Filter words starting with letter T
+const tWords = dictionary.filter((entry) => entry.word.charAt(0) === 't')
+
+console.log(tWords)
+
+```
+
+Individual words are returned in format of:
+
+```javascript
+{
+    word:         String   // eg. griðabeiðandi
+    partOfSpeech: String   // eg. m
+    definition:  String   // eg. riðabeiðandi, m. Person som begjærer grið 3. Grág. 30716.
+}
+```
+
 
 ### About "Dictionary of the Old Norwegian Language"
 
