@@ -38,7 +38,7 @@ Individual words are returned in format of:
 {
     word:         String   // eg. griðabeiðandi
     partOfSpeech: String   // eg. m
-    definition:  String   // eg. riðabeiðandi, m. Person som begjærer grið 3. Grág. 30716.
+    definition:   String   // eg. riðabeiðandi, m. Person som begjærer grið 3. Grág. 30716.
 }
 ```
 
