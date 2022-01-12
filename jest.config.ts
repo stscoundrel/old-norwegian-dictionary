@@ -7,7 +7,4 @@ module.exports = {
   setupFiles: [
     '<rootDir>/setupTests.ts',
   ],
-  testPathIgnorePatterns: [
-    '<rootDir>/.stryker-tmp/', '<rootDir>/node_modules/',
-  ],
 };
