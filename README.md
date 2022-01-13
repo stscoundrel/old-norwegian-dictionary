@@ -4,6 +4,10 @@ Old Norwegian/Norse Dictionary for Node.js. The dictionary consists of 40 000+ O
 
 Based on "Dictionary of the Old Norwegian Language".
 
+Related projects:
+- [Old Norwegian Dictionary Abbreviations](https://github.com/stscoundrel/old-norwegian-dictionary-abbreviations).
+- [Old Norwegian Dictionary Builder](https://github.com/stscoundrel/old-norwegian-dictionary-builder).
+
 ### Install
 
 `yarn add old-norwegian-dictionary`
