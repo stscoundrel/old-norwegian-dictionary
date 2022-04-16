@@ -12,7 +12,7 @@ describe('Old Norwegian Dictionary test suite', () => {
 
     result.forEach((entry) => {
       // Only expected keys.
-      expect(Object.keys(entry)).toEqual(['word', 'partOfSpeech', 'definition']);
+      expect(Object.keys(entry)).toEqual(['word', 'definition', 'partOfSpeech']);
 
       // Fields are non-empty strings.
       expect(entry.word.length > 0).toBeTruthy();
