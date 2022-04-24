@@ -20,6 +20,8 @@
     "@babel/core": "^7.17.9",
     "@babel/preset-env": "^7.16.8",
     "@babel/preset-typescript": "^7.16.7",
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.2.171",
     "@types/jest": "^27.4.0",
     "@typescript-eslint/eslint-plugin": "^5.19.0",
     "@typescript-eslint/parser": "^5.19.0",
@@ -39,7 +41,7 @@
     "jest": "jest --verbose --runInBand --passWithNoTests",
     "test:unit": "yarn jest",
     "test:coverage": "jest --coverage --coverageThreshold='{\"global\":{\"statements\":\"90\", \"functions\":\"90\", \"branches\":\"90\", \"lines\":\"90\"}}'",
-    "build": "tsc",
+    "build": "npx swc ./src -d dist && tsc --emitDeclarationOnly",
     "prepublishOnly": "yarn build && yarn test:unit"
   }
 }
