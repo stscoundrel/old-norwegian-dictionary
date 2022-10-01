@@ -9,6 +9,12 @@ Related projects:
 - [Old Norwegian Dictionary Abbreviations](https://github.com/stscoundrel/old-norwegian-dictionary-abbreviations).
 - [Old Norwegian Dictionary Builder](https://github.com/stscoundrel/old-norwegian-dictionary-builder).
 
+Ports in other languages:
+- [Go](https://github.com/stscoundrel/old-norwegian-dictionary-go)
+- [C# / .NET](https://github.com/stscoundrel/old-norwegian-dictionary-cs)
+- [Python](https://github.com/stscoundrel/old-norwegian-dictionary-py)
+- [Rust](https://github.com/stscoundrel/old-norwegian-dictionary-rs)
+
 ### Install
 
 `yarn add old-norwegian-dictionary`
