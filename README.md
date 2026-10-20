@@ -17,7 +17,7 @@ Ports in other languages:
 
 ### Install
 
-`yarn add old-norwegian-dictionary`
+`npm install old-norwegian-dictionary`
 
 ### Usage
 
